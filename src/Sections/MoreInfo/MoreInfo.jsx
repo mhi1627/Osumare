@@ -16,7 +16,7 @@ export default function MoreInfo() {
               <p className="sm:text-xl lg:w-2/3">
               In the dynamic realm of real estate, the journey from a property inquiry to a successful conversion demands a well-crafted approach. At Osumare, we specialize in guiding potential buyers through this journey seamlessly, maximizing inquiries-turned-conversions with expert strategies.
               </p>
-              <Button style={`bg-[#0078FF] h-12 sm:w-40 text-white hover:bg-transparent`}>Get Started</Button>
+              <Button style={`bg-[#0078FF]  h-12 sm:w-50 text-white hover:bg-transparent`}>Get Started</Button>
             </div>
           </div>
         </div>

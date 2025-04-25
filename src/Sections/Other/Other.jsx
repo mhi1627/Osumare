@@ -14,7 +14,7 @@ export default function Other() {
         <h3 className='text-2xl font-black text-center mt-10 sm:text-4xl'>Your Peace of Mind</h3>
         <p className='text-md text-center sm:text-xl sm:w-2/6'>Through our conversion-focused strategies, we ensure that property seekers are not just visitors, but engaged prospects ready to make their next move in the real estate market
         </p>
-        <Button style={`w-full h-9 bg-[#0078FF] text-white hover:bg-transparent sm:w-1/5 sm:h-12 cursor-pointer`}>Get Started</Button>
+        <Button style={`w-[90%] h-12 bg-[#0078FF] text-white hover:bg-transparent sm:w-1/5 sm:h-12 cursor-pointer`}>Get Started</Button>
      </div>
     </div>
   )

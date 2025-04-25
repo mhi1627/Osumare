@@ -55,8 +55,8 @@ export default function Services() {
       <ServicesCard heading={service.heading} description={service.description} icon = {service.icon}></ServicesCard>
      ))}
     </div>
-    <Button style={`bg-[#0078FF] h-8 sm:h-12 lg:py-3 w-1/2 sm:w-1/4 text-white hover:bg-transparent mt-4`}>Get Started</Button>
+    <Button style={`bg-[#0078FF] sm:h-8 h-12 sm:h-12 lg:py-3 s:w-1/2 sm:w-1/4 text-white hover:bg-transparent sm:mt-4 w-[90%] `}>Get Started</Button>
 </div>
   )
-}
+}         
 
