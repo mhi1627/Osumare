@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import SectionHeader from '../../Components/SectionHeader/SectionHeader'
-
+import {ChevronDown} from 'lucide-react'
 const FAQsData = [
   {
     queNo : '1. ',
@@ -58,7 +58,7 @@ function Accordion({queNo,question,isActive,answer}){
     <h4 className='hidden sm:block'>{queNo}</h4>
     <h3 className=''>{question}</h3>
     </div>
-      <button  className='cursor-pointer'><img src="src\assets\Icons\i.fa-solid.png" alt="" /></button>
+      <button  className='cursor-pointer'><ChevronDown></ChevronDown></button>
     </div>
     {collapse ? <div className=' sm:p-5 sm:text-lg text-[#706F7B] p-3 text-sm'>{answer}</div>:''}
    </div>

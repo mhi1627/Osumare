@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../Components/Button/Button";
+import cuate from './../../assets/cuate.png'
 
 export default function AboutUs() {
   return (
@@ -7,7 +8,7 @@ export default function AboutUs() {
       <h1 className="text-2xl sm:text-4xl font-black text-center">Real Estate-Focused Digital Mastery</h1>
       <div className="grid-cols-2 justify-items-center sm:flex sm:mt-10 mt-7 w-full">
         <div className="sm:w-1/2 flex justify-center">
-        <img src="src\assets\cuate.png" alt="" className=""/>
+        <img src={cuate} alt="man with arrow" className=""/>
         </div>
         <div className="flex flex-col sm:justify-between gap-5 sm:w-1/2 px-5">
           <h1 className="text-2xl mt-5 font-black sm:text-3xl ">Unlock the Potential of Digital Real Estate Excellence</h1>

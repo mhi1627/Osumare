@@ -1,6 +1,8 @@
 
 
 import React from 'react'
+import logo from './../../assets/osumare_logo.png'
+import {Instagram,Facebook,Twitter,MessageCircle,Youtube} from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -9,7 +11,7 @@ export default function Footer() {
     <div className='-mt-24 flex sm:h-[60vh] justify-between bg-[#B2D6FF] rounded-2xl p-4  flex-col sm:flex-row'>
         <div className='flex flex-col items-center text-center sm:w-1/3'>
            <div className='flex flex-col items-center'>
-           <img src="src\assets\osumare_logo.png" alt=""  className='w-35'/>
+           <img src={logo} alt=""  className='w-35'/>
            <h4 className='-mt-5'>The best digital marketing agency in Pune with a proven track record of consistently delivering quality service.</h4>
            </div>
 
@@ -40,14 +42,14 @@ export default function Footer() {
         <div className='mt-5 sm:w-1/3 flex flex-col  items-center gap-5'>
             <h3 className='font-black text-xl'>Social</h3>
             <div className='flex gap-5'>
-             <img src="src\assets\Icons\X.png" alt="" />
-             <img src="src\assets\Icons\fb.png" alt="" />
-             <img src="src\assets\Icons\yt.png" alt="" />
+           <Instagram className='bg-slate-300 w-12 h-12 p-2 rounded-full'></Instagram>
+           <Facebook className='bg-slate-300 w-12 h-12 p-2 rounded-full'> </Facebook>
+           <MessageCircle className='bg-slate-300 w-12 h-12 p-2 rounded-full'></MessageCircle>
             </div>
             <div className='flex gap-5'>
-            <img src="src\assets\Icons\whatsapp-fill.png" alt="" />
-            <img src="src\assets\Icons\pinterest-fill.png" alt="" />
-            <img src="src\assets\Icons\instagram-fill.png" alt="" />
+           <Twitter className='bg-slate-300 w-12 h-12 p-2 rounded-full'></Twitter>
+           <Youtube className='bg-slate-300 w-12 h-12 p-2 rounded-full'></Youtube>
+           
             </div>
         </div>
        

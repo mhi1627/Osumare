@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css'
 import Button from '../../Components/Button/Button'
+import houseImg from './../../assets/header image.png'
 export default function Hero() {
   return (
    <div className='flex flex-col items-center'>
@@ -11,7 +12,7 @@ export default function Hero() {
         <Button style={` sm:w-1/2 px-3 py-2 mt-5 w-full bg-[#0078FF] text-white hover:bg-transparent`}>Get Started</Button>
       </div>
     </div>
-    <img src="src\assets\Header image.png" alt="" className=' -mt-60 sm:-mt-64 '/>
+    <img src={houseImg} alt="house image ad we need marketing" className=' -mt-60 sm:-mt-64 '/>
    </div>
   )
 }
