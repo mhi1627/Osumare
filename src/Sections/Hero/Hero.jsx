@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.css'
 import Button from '../../Components/Button/Button'
-import houseImg from './../../assets/header image.png'
+import houseImg from './../../assets/header.png'
 export default function Hero() {
   return (
    <div className='flex flex-col items-center'>
