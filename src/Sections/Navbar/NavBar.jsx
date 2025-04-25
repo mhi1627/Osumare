@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../../Components/Button/Button'
-import logo from "M:/React/Osumare/src/assets/osumare_logo.png"
+import logo from './../../assets/osumare_logo.png'
+
 export default function NavBar() {
   return (
     <div className='w-full h-30 flex justify-between items-center px-2 sm:px-10'>
